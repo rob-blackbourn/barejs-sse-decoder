@@ -1,7 +1,7 @@
 {
     "name": "@barejs/sse-decoder",
     "private": false,
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "A decoder for server sent events",
     "keywords": [
         "sse",
