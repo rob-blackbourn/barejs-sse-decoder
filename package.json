@@ -1,18 +1,19 @@
 {
   "name": "@barejs/sse-decoder",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A decoder for server sent events",
   "keywords": [
-      "sse",
-      "decoder",
-      "server sent events"
+    "sse",
+    "decoder",
+    "server sent events"
   ],
   "main": "lib/index.js",
   "repository": "git@github.com:rob-blackbourn/barejs-sse-decoder.git",
   "homepage": "https://github.com/rob-blackbourn/barejs-sse-decoder",
   "author": "Rob Blackbourn <rob.blackbourn@gmail.com>",
-  "license": "Apache-2.0",  "module": "src/index.js",
+  "license": "Apache-2.0",
+  "module": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest",

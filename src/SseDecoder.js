@@ -1,5 +1,3 @@
-import original from 'original'
-
 const bom = ['\xEF', '\xBB', '\xBF']
 const colon = ':'
 const space = ' '
@@ -86,7 +84,7 @@ export default class SseDecoder {
           type: this.eventName || 'message',
           data: this.data.slice(0, -1), // remove trailing newline
           lastEventId: this.lastEventId,
-          origin: original(this.url)
+          origin: this.url
         })
         this.data = ''
       }
